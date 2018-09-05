@@ -1,5 +1,5 @@
 # Terminal App - myMDb
-Developed by Linda Lai and James Merrigan
+Developed by Linda Lai and James Merrigan (2018)
 
 ### GitHub
 [View in GitHub](https://github.com/ladnil/terminalapp)
