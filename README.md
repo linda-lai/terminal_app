@@ -21,6 +21,8 @@ The Ruby gems 'tty-font', 'tts-spinner', 'net/http' and 'json' are required to r
 
 myMDb returns movie data from the OMDb API (API key required): http://www.omdbapi.com
 
+test
+
 ### Instructions for Use
 To initialise program:
 
