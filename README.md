@@ -1,8 +1,8 @@
 # Terminal App - myMDb
-Developed by Linda Lai and James Merrigan (2018)
+Developed by Linda Lai and James Merrigan.
 
 ### GitHub
-[View in GitHub](https://github.com/ladnil/terminalapp)
+[View in GitHub](https://github.com/linda-lai/terminal_app)
 
 ### Purpose
 Made for the modern and minimalist cinephile, myMDb simplifies the process of selecting, saving and suggesting a movie to watch. Within myMDb's current scope as a minimum viable product (MVP), its primary purpose for users is simple: search, suggest, save. Users can easily find, display and add movie titles to their watchlist, or have the application suggest one based on their mood/genre. 
@@ -20,8 +20,6 @@ Throughout the session users can use the watchlist option to view all of their s
 The Ruby gems 'tty-font', 'tts-spinner', 'net/http' and 'json' are required to run myMDb.
 
 myMDb returns movie data from the OMDb API (API key required): http://www.omdbapi.com
-
-test
 
 ### Instructions for Use
 To initialise program:
@@ -86,9 +84,9 @@ After testing the application to ensure users could loop back to the main menu t
 
 ### Future Enhancements
 * Functionality to export or email list to within display movies option.
-* Create database to store movie shortlist permanently (beyond a single session).
+* Create a database to store movie shortlist permanently (beyond a single session).
 * Enable broad match search parameters using OMDb API.
-* Generate list of movies by genre for randomiser via an API rather than manual hardcoding.
+* Generate a list of movies by genre for randomiser via an API rather than manual hardcoding.
 * Add error messages – e.g. if duplicate movies are added (“This movie already exists.”)
 * Functionality to update or delete existing movie entries.
 
