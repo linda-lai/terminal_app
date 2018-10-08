@@ -100,7 +100,7 @@ After testing the application to ensure users could loop back to the main menu t
           ______       _.-'       ||                    ||
          |      |_ _.-'           ||                    ||
          |      |_|_              ||        fin         ||
-         |______|   `-._          ||                    ||s
+         |______|   `-._          ||                    ||
             /|          `-._      ||                    ||
            / |              `-._  ||                    ||
           /  |                  `-||____________________||
