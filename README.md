@@ -1,8 +1,8 @@
 # Terminal App - myMDb
-Developed by Linda Lai and James Merrigan (2018)
+Developed by Linda Lai and James Merrigan.
 
 ### GitHub
-[View in GitHub](https://github.com/linda-lai/terminalapp)
+[View in GitHub](https://github.com/linda-lai/terminal_app)
 
 ### Purpose
 Made for the modern and minimalist cinephile, myMDb simplifies the process of selecting, saving and suggesting a movie to watch. Within myMDb's current scope as a minimum viable product (MVP), its primary purpose for users is simple: search, suggest, save. Users can easily find, display and add movie titles to their watchlist, or have the application suggest one based on their mood/genre. 
@@ -14,7 +14,7 @@ myMDb users can search via a specific movie title, which will return movie detai
 
 Alternatively, users can prompt the myMDb for a suggestion based on current mood, which in turn makes a random selection from a list of movies associated by genre.
 
-Throughout the session, users can use the watchlist option to view all of their saved selections throughout the session.
+Throughout the session users can use the watchlist option to view all of their saved selections throughout the session.
 
 ### Dependencies
 The Ruby gems 'tty-font', 'tts-spinner', 'net/http' and 'json' are required to run myMDb.
@@ -72,7 +72,11 @@ Following this approach enabled us to break down our tasks and deliverables syst
 ### Coding Process
 After defining the main search, save and suggest function and logic for myMDb's frontend and backend during project planning, the initial focus was to create a minimal but functional base code for each user option. This primarily involved creating numerous methods to search, store and interpolate movie information stored in the hash returned by OMDb's API into an empty array acting as the watchlist displayed to users.
 
+<<<<<<< HEAD
 With time permitting, an additional method to suggest a random movie title to users based on selecting their current mood was also included in the initial build. While our long-term preference would be to generate a list of movies by genre from an API, our current workaround was to hardcode a database of arrays by movie genre and randomly select a title value based on the index. We decide to save the array in a separate file to keep the initialise file as clean and readable as possible.
+=======
+With time permitting, an additional method to suggest a random movie title to users based on selecting their current mood was also included in the initial build. While our long-term preference would be to generate a list of movies by genre from an API, our current workaround was to hardcode a database of arrays by movie genre and randomly select a title value based on index. We decide to save the array in a separate file to keep the initialise file as clean and readable as possible.
+>>>>>>> 95527852564a7d277ac5f775f7dee91011879e60
 
 After testing the application to ensure users could loop back to the main menu throughout the program, our final step was to clean up the user interface, add comments in pseudocode and refactor into modules to keep our files and logic streamlined and clearly laid out. Using modules allowed us to move the most sizeable but related methods and data into logical containers to keep our initialise file relatively streamlined and short.
 
@@ -100,7 +104,11 @@ After testing the application to ensure users could loop back to the main menu t
           ______       _.-'       ||                    ||
          |      |_ _.-'           ||                    ||
          |      |_|_              ||        fin         ||
+<<<<<<< HEAD
          |______|   `-._          ||                    ||s
+=======
+         |______|   `-._          ||                    ||
+>>>>>>> 95527852564a7d277ac5f775f7dee91011879e60
             /|          `-._      ||                    ||
            / |              `-._  ||                    ||
           /  |                  `-||____________________||
