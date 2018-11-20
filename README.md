@@ -24,28 +24,37 @@ Throughout the session users can use the watchlist option to view all of their s
 ### Dependencies
 The Ruby gems 'tty-font', 'tts-spinner', 'net/http' and 'json' are required to run myMDb.
 
-myMDb returns movie data from the OMDb API (API key required): http://www.omdbapi.com
+myMDb returns movie data from the OMDb API (free limit is capped at 1,000 requests). Users need to generate an API token from [OMDb's website](http://www.omdbapi.com/apikey.aspx).
+
+![OMDb API](/assets/OMDb-API.png)
 
 ### Instructions for Use
-To initialise program:
+Open Terminal or preferred console. To initialise program, enter:
 
 ```ruby
 $ bundle install
 ```
-This will install the following gemfiles:
+This will install the following Ruby gems specified in the Gemfile:
 
 'tty-font' <br>
 'tty-spinner' <br>
 'net/http' <br>
 'json' <br>
 
-Open Terminal or preferred console. Enter:
+The API key will need to be stored in as a local environment variable in your Terminal as `OMDB_API_KEY`. To export:
+
+```terminal
+export OMDB_API_KEY=[YOUR_UNIQUE_API_KEY]
+```
+
+To initialise program, enter:
 
 ```ruby
 $ ruby main.rb
 ```
-From the main menu, make a selection.
+Ready to go! 
 
+From the main menu, make a selection:
 ![main_menu_screenshot](assets/main_menu.png)
 
 ## Designing and Planning

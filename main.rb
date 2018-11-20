@@ -12,10 +12,10 @@ exit_program = false
 # Empty array to store movie favourites
 my_movies = []
 
-# Used TTY Font gem for myMDB logo
+# Uses TTY Font gem for myMDB logo
 font = TTY::Font.new(:standard)
 
-# Used TTY Spinner gem for 'Loading' graphic
+# Uses TTY Spinner gem for 'Loading' graphic
 spinner = TTY::Spinner.new("[:spinner] Loading ...", format: :pulse_2)
 
 # 'While' loop for iterating through menu options/application

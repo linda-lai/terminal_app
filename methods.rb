@@ -99,7 +99,7 @@ module Methods
         end
     end
     
-    # Mood menu to select your current mood
+    # Mood menu for user to select current mood
     def self.mood_choice(joyful, melancholy, nostalgic, futuristic, strange, netflix, thriller)
         puts """
         Let's pick a random movie based on mood!
@@ -136,7 +136,7 @@ module Methods
     
     end
     
-    # Finds a random movie for you from mood array based on your previous mood choice
+    # Finds a random movie from mood array based on previous mood choice
     def self.mood_movie_search(mood_array, my_movies, api_key)
         if mood_array[0] == "Bruce Almighty"
             mood = "joyful"
@@ -197,7 +197,7 @@ module Methods
         
     end
     
-    
+
     # Message displayed when exiting the program
     def self.goodbye
     
