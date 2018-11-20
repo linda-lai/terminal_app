@@ -1,3 +1,4 @@
+# Hardcoded array titles added as search parameter to API
 module Movies
 
     def self.joy
