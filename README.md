@@ -30,7 +30,7 @@ myMDb returns movie data from the OMDb API (API key required): http://www.omdbap
 To initialise program:
 
 ```ruby
-bundle install
+$ bundle install
 ```
 This will install the following gemfiles:
 

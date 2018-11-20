@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.5.0)
+    json (2.1.0)
+    tty-cursor (0.6.0)
+    tty-font (0.3.0)
+    tty-spinner (0.8.0)
+      tty-cursor (>= 0.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv (~> 2.1, >= 2.1.1)
+  json
+  tty-font
+  tty-spinner
+
+BUNDLED WITH
+   1.17.1
